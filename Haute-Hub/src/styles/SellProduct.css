@@ -1,0 +1,64 @@
+.sellProduct {
+  display: flex;
+  justify-content: center;  
+  align-items: center;
+}
+
+.formDiv{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height:50vh;
+  width: 30%;
+  background-color: aliceblue;
+  border-radius: 10px;
+}
+
+.products {
+  position: relative;
+  margin-bottom: 20px;
+  width: 80%;
+}
+
+.products input {
+  width: 100%;
+  border: none;
+  padding: 15px;
+  border-radius: 10px;
+  outline: none;
+  font-family: 'Poppins';
+  letter-spacing: 0.5px;
+}
+
+.products label {
+  position: absolute;
+  transition: 0.5s ;
+  pointer-events: none;
+  top:0;
+  left:0;
+  padding: 13px;
+  font-family: 'Poppins';
+  font-size: 15px;
+  color: gray;
+}
+
+.products.active input ~ label,
+.products input:focus ~ label {
+  font-size: 13px;
+  top: -25px;
+}
+  
+.addProduct{
+    height: 2.5rem;
+    width:  85%;
+    background-color: #28C8A4;
+    border: none;
+    color:white;
+    font-size: 16px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    border-radius: 10px;
+    margin-top: 16px;
+    cursor: pointer;
+}

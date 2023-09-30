@@ -1,0 +1,88 @@
+.register {
+    width: 100%;
+    /* padding: 10px; */
+    display: flex;
+    overflow: hidden;
+  }
+  
+  .register .registerForm .err {
+    font-size: 12px;
+    color: red;
+    padding-bottom: 0.3em;
+    padding-left: 1em;
+  }
+  
+  .register .registerField img {
+    width: 800px;
+    height: 800px;
+  }
+  
+  .register .registerForm {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .register .registerForm .formGroup {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .register .registerForm .formGroup input {
+    width: 100%;
+    padding: 10px;
+    color: #03314b;
+    background-color: #f0f8ff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    border-radius: 20px;
+    font-size: 20px;
+    outline: none;
+  }
+  
+  .register .registerForm .formGroup label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    font-size: 16px;
+    color: #03314b;
+    pointer-events: none;
+    transition: 0.5s;
+  }
+  
+  .register .registerForm .formGroup.active input ~ label,
+  .register .registerForm .formGroup input:focus ~ label {
+    top: -20px;
+    left: 0;
+    font-size: 12px;
+    color: #27dec0;
+  }
+  
+  .register .registerForm button {
+    width: 100%;
+    background-color: #27dec0;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  @media screen and (max-width: 800px) {
+    .register .registerField img {
+      width: 300px;
+      height: 300px;
+    }
+    .register {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  

@@ -1,0 +1,71 @@
+.navbar{
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid;
+    border-color: #CACDD8;
+    height: 10vh;
+}
+
+.navbar .list{
+    display: flex;
+    height: 40px;
+    list-style: none;
+    gap:90px;
+}
+
+.navbar .list li{
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    font-size: 20px;
+    align-self: center;
+    font-family: 'Poppins';
+    cursor: pointer;
+}
+
+.navbar img{
+    height: 4em;
+    width:5em;
+}
+
+.navbar .dealsButton{
+    background-color: white;
+    border-radius: 20px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    font-size: 20px;
+    height:40px;
+    width: 8em;
+    color:#28C8A4;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+    font-family: 'Poppins';
+    cursor: pointer;
+    border: none;
+    border:2px solid #28C8A4
+}
+
+.navbar ul div{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap:40px;
+}
+
+.navbar .searchIcon{
+    height: 20px;
+}
+
+.navbar .cartIcon{
+    font-size: 22px;
+    color:black;
+}
+
+.navbar ul li:hover{
+    border-bottom: 2px solid lightgray;
+} 
+
+.navbar .userIcon{
+    font-size: 20px;
+}
+

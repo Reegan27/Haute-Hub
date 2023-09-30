@@ -1,0 +1,56 @@
+.productcard {
+    display: flex;
+    flex-direction: column;
+    height: 45vh;
+    width: 30vh;
+    justify-content: center;
+    box-shadow: 1px;
+}
+
+.productcard .productDetails{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.productcard .cardImage{
+    height: 200px;  
+    width: 200px;
+    object-fit: contain;
+    align-self: center;
+}
+
+.productcard .title{
+    font-size: 22px; 
+    font-family: 'Poppins';
+    font-weight: 500;
+}   
+
+.productcard .productDetails .productPrice{
+    font-weight: 600;
+    font-size: 25px;
+    letter-spacing: 0.5px;
+    font-family: 'Poppins';
+}
+
+.priceStriked{
+    text-decoration:line-through;
+    font-size: 18px;
+    color:grey;
+    font-weight: 500;
+    font-family: 'Poppins';
+    margin-top: 16px;
+}
+
+.productcard button{
+    height:50px;
+    width: 100%;
+    background-color: #28C8A4;
+    border: none;
+    color:white;
+    font-family: 'Poppins';
+    letter-spacing: 0.5px;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+}

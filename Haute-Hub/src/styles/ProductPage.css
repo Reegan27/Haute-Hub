@@ -1,0 +1,92 @@
+.product {
+  display: flex;
+  padding: 40px;
+}
+
+.product .img {
+  height: 500px;
+  width: 500px;
+}
+
+.productDetails {
+  display: flex;
+  flex-direction: column;
+  padding-left: 3rem;
+}
+
+.name {
+  font-size: 2rem;
+  font-weight: 600;
+  font-family: "Poppins";
+  letter-spacing: 1px;
+}
+
+.desc {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-family: 'Poppins';
+}
+
+.price {
+  color: #28C8A4;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.addCart {
+  height: 2.5rem;
+  width: 40vh;
+  border: none;
+  background-color: #28C8A4;
+  color: white;
+  font-family: "Poppins";
+  letter-spacing: 0.5px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.product .productDetails .qtyDiv {
+  display: flex;
+  border: 1px solid lightgrey;
+  height: 2.3rem;
+  width: 6rem;
+}
+
+.product .productDetails .qtyDiv .decrementQty {
+  display: flex;
+  width: 33.33%;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  border-right: 1px solid lightgray;
+  font-family: "Poppins";
+  cursor: pointer;
+}
+
+.product .productDetails .qtyCart .qtyDiv .incrementQty {
+  display: flex;
+  width: 33.33%;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  border-right: 1px solid lightgray;
+  font-family: "Poppins";
+  cursor: pointer;
+}
+
+.product .productDetails .qtyCart .qtyDiv .quantity {
+  display: flex;
+  width: 33.33%;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.7vh;
+  border-right: 1px solid lightgray;
+  font-family: "Poppins";
+  cursor: default;
+}
+
+.product .productDetails .qtyCart {
+  display: flex;
+  margin-top: 16px;
+  gap: 1rem;
+}
